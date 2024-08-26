@@ -1,0 +1,14 @@
+C:\Users\usuario\source\repos\SchoolUdemy\AccesosDatos\obj\Debug\net8.0\AccesosDatos.csproj.AssemblyReference.cache
+C:\Users\usuario\source\repos\SchoolUdemy\AccesosDatos\obj\Debug\net8.0\AccesosDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\source\repos\SchoolUdemy\AccesosDatos\obj\Debug\net8.0\AccesosDatos.AssemblyInfoInputs.cache
+C:\Users\usuario\source\repos\SchoolUdemy\AccesosDatos\obj\Debug\net8.0\AccesosDatos.AssemblyInfo.cs
+C:\Users\usuario\source\repos\SchoolUdemy\AccesosDatos\obj\Debug\net8.0\AccesosDatos.csproj.CoreCompileInputs.cache
+C:\Users\usuario\source\repos\SchoolUdemy\AccesosDatos\bin\Debug\net8.0\AccesosDatos.deps.json
+C:\Users\usuario\source\repos\SchoolUdemy\AccesosDatos\bin\Debug\net8.0\AccesosDatos.runtimeconfig.json
+C:\Users\usuario\source\repos\SchoolUdemy\AccesosDatos\bin\Debug\net8.0\AccesosDatos.dll
+C:\Users\usuario\source\repos\SchoolUdemy\AccesosDatos\bin\Debug\net8.0\AccesosDatos.pdb
+C:\Users\usuario\source\repos\SchoolUdemy\AccesosDatos\obj\Debug\net8.0\AccesosDatos.dll
+C:\Users\usuario\source\repos\SchoolUdemy\AccesosDatos\obj\Debug\net8.0\refint\AccesosDatos.dll
+C:\Users\usuario\source\repos\SchoolUdemy\AccesosDatos\obj\Debug\net8.0\AccesosDatos.pdb
+C:\Users\usuario\source\repos\SchoolUdemy\AccesosDatos\obj\Debug\net8.0\AccesosDatos.genruntimeconfig.cache
+C:\Users\usuario\source\repos\SchoolUdemy\AccesosDatos\obj\Debug\net8.0\ref\AccesosDatos.dll
