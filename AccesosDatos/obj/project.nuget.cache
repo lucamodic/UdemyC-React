@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jwVLu2F590Q=",
+  "dgSpecHash": "QpB2DjT842s=",
   "success": true,
-  "projectFilePath": "C:\\Users\\usuario\\source\\repos\\SchoolUdemy\\AccesosDatos\\AccesosDatos.csproj",
+  "projectFilePath": "D:\\documento\\desktop\\repositorios\\SchoolUdemy\\AccesosDatos\\AccesosDatos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\usuario\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\usuario\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
