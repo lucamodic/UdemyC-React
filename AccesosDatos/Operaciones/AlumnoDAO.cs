@@ -77,4 +77,61 @@ public class AlumnoDAO
                     };
         return query.ToList();
     }
+
+    public List<AlumnoProfesor> seleccionarAlumnosProfesor(string usuario)
+    {
+        var query = from a in contexto.Alumnos
+                    join m in contexto.Matriculas on a.Id equals m.AlumnoId
+                    join asig in contexto.Asignaturas on m.AsignaturaId equals asig.Id
+                    where asig.Profesor == usuario
+                    select new AlumnoProfesor
+                    {
+                        Id = a.Id,
+                        Dni =a.Dni,
+                        Nombre = a.Nombre,
+                        Direccion = a.Direccion,
+                        Edad = a.Edad,
+                        Email = a.Email,
+                        Asignatura = asig.Nombre
+                    };
+
+        return query.ToList();
+    }
+    public Alumno seleccionarPorDni(string dni)
+    {
+        var alumno = contexto.Alumnos.Where(a => a.Dni.Equals(dni)).FirstOrDefault();
+        return alumno;
+    }
+
+    public bool insertarYMatricular(string dni, string nombre, string direccion, int edad, string email, int idAsig)
+    {
+        try
+        {
+            var existe = seleccionarPorDni(dni);
+            if(existe == null)
+            {
+                insertar(dni, nombre, direccion, edad, email);
+                var insertado = seleccionarPorDni(dni);
+                Matricula m = new Matricula();
+                m.AlumnoId = insertado.Id;
+                m.AsignaturaId = idAsig;
+                contexto.Matriculas.Add(m);
+                contexto.SaveChanges();
+            }
+            else
+            {
+                Matricula m = new Matricula();
+                m.AlumnoId = existe.Id;
+                m.AsignaturaId = idAsig;
+                contexto.Matriculas.Add(m);
+                contexto.SaveChanges();
+            }
+            return true;
+        }
+        catch(Exception e)
+        {
+            return false;
+        }
+    }
+
 }
