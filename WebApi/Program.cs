@@ -1,8 +1,13 @@
+using AccesosDatos.Interfaces;
+using AccesosDatos.Operaciones;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddScoped<IAlumnoDAO, AlumnoDAO>();
 
 builder.Services.AddCors(policyBuilder => policyBuilder
     .AddDefaultPolicy(policy => policy

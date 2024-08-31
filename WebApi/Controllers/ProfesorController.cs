@@ -21,7 +21,7 @@ namespace WebApi.Controllers
             }
             else
             {
-                return "Usuario o contraseña incorrectos";
+                return "";
             }
         }
     }
