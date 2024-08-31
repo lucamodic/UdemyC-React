@@ -3184,32 +3184,40 @@
     ]
   },
   "packageFolders": {
-    "/Users/lmodic/.nuget/packages/": {}
+    "C:\\Users\\usuario\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/lmodic/Desktop/Courses/UdemyC-React/WebApi/WebApi.csproj",
+      "projectUniqueName": "D:\\documento\\desktop\\repositorios\\SchoolUdemy\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "/Users/lmodic/Desktop/Courses/UdemyC-React/WebApi/WebApi.csproj",
-      "packagesPath": "/Users/lmodic/.nuget/packages/",
-      "outputPath": "/Users/lmodic/Desktop/Courses/UdemyC-React/WebApi/obj/",
+      "projectPath": "D:\\documento\\desktop\\repositorios\\SchoolUdemy\\WebApi\\WebApi.csproj",
+      "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
+      "outputPath": "D:\\documento\\desktop\\repositorios\\SchoolUdemy\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/lmodic/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/lmodic/Desktop/Courses/UdemyC-React/AccesosDatos/AccesosDatos.csproj": {
-              "projectPath": "/Users/lmodic/Desktop/Courses/UdemyC-React/AccesosDatos/AccesosDatos.csproj"
+            "D:\\documento\\desktop\\repositorios\\SchoolUdemy\\AccesosDatos\\AccesosDatos.csproj": {
+              "projectPath": "D:\\documento\\desktop\\repositorios\\SchoolUdemy\\AccesosDatos\\AccesosDatos.csproj"
             }
           }
         }
@@ -3253,7 +3261,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
